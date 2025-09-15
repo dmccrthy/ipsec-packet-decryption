@@ -1,10 +1,8 @@
 #!/bin/bash
 
 ##
-# Imports IKEv2 keys from specified file into wireshark
-#
-# Usage: 
-#       ./import_ike.sh <file> <>
+# Imports IKEv2 keys from specified file into Wireshark.
+# This will handle decryption of the initial IKE exchange.
 ##
 
 ike_table=~/.config/wireshark/ikev2_decryption_table
